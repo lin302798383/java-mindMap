@@ -44,5 +44,6 @@ public class _215 {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
+        System.out.println(i + " " + j);
     }
 }
